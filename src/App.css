@@ -1,0 +1,14 @@
+.App{
+    position:absolute;
+    border: 2px solid white;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    margin:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}

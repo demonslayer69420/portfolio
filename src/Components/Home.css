@@ -1,0 +1,19 @@
+.home{
+    color:white;
+    font-size: 22px;
+}
+@media (max-width: 200px) {
+    .home{
+        font-size: 2vw;
+    }
+}
+@media (min-width: 201px) and (max-width: 600px) {
+    .home{
+        font-size: 14px;
+    }
+}
+@media (min-width: 601px) and (max-width: 1000px) {
+    .home{
+        font-size:18px;
+    }
+}

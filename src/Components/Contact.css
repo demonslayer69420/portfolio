@@ -1,0 +1,44 @@
+.contact{
+    color:white;
+    font-size: 22px;
+}
+.faItems{
+    display:flex;
+}
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    border:1px solid white;
+}
+@media (max-width: 200px) {
+    .contact{
+        font-size: 2vw;
+    }
+    .fa{
+        padding:10px;
+        font-size: 15px;
+        margin:2px;
+    }
+}
+@media (min-width: 201px) and (max-width: 600px) {
+    .contact{
+        font-size: 14px;
+    }
+    .faItems{
+        flex-direction: column;
+      }
+      .fa{
+          padding:10px;
+          font-size: 25px;
+          margin:5px;
+      }
+}
+@media (min-width: 601px) and (max-width: 1000px) {
+    .contact{
+        font-size:18px;
+    }
+}

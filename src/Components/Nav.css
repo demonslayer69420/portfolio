@@ -1,0 +1,31 @@
+.navbar{
+    position:absolute;
+    top:80%;
+    bottom:20%;
+    display:flex;
+}
+.navitem{
+    font-size: 18px;
+}
+@media (max-width: 200px) {
+    .navitem{
+        padding:10px;
+        font-size: 1.5vw;
+    }
+}
+@media (min-width: 201px) and (max-width: 600px) {
+    .navbar{
+      flex-direction: column;
+    }
+    .navitem{
+        padding:10px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+    .navitem{
+        padding:10px;
+        font-size: 14px;
+    }
+}
