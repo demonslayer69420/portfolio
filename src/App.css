@@ -1,6 +1,6 @@
 .App{
     position:absolute;
-    border: 2px solid white;
+    border: 2px solid var(--borderColor);
     top:0px;
     right:0px;
     bottom:0px;
@@ -11,4 +11,5 @@
     align-items: center;
     justify-content: center;
     text-align:center;
+    background-color:var(--backgroundColor);
 }

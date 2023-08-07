@@ -6,7 +6,7 @@ export default function Nav() {
   return (
     <>
     <nav className='navbar'>
-        <Link className='navitem' to='/about'>About Me</Link>
+        <Link className='navitem' to='/project'>Projects</Link>
         <Link className='navitem' to='/'>Home</Link>
         <Link className='navitem' to='/contact'>Contact</Link>
     </nav>

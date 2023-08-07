@@ -4,12 +4,8 @@ import './Contact.css';
 export default function Contact() {
   return (
     <>
-    <p className='contact'>Connect with me Here!</p>
-    <div className='faItems'>
-        <a className="fa fa-linkedin" href='https://www.linkedin.com/in/prashant-singh-nigam/' alt='linkedin'></a>
-        <a className="fa fa-envelope" href='mailto:nigamp72@gmail.com' alt='Email'></a>
-        <a className="fa fa-whatsapp" href='https://wa.me/qr/ZVFTULQ5OUEBL1' alt='Whatsapp'></a>
-    </div>
+    <p className='contact'>Want to connect<br/>with me!</p>
+    <p className='message'>Message me on <a style={{padding:0, textDecoration:'underline',color:'rgb(10, 102, 194)'}} href='https://www.linkedin.com/in/prashant-singh-nigam/' alt='Search Prashant Nigam on Linkedin'>Linkedin</a> or email me at <br/><a style={{padding:0,textDecoration:'underline'}} href='mailto:nigamp72@gmail.com'>nigamp72@gmail.com.</a></p>
     </>
   )
 }

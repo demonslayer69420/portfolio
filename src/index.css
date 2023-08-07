@@ -1,3 +1,9 @@
+:root{
+  --backgroundColor:black;
+  --fontColor:white;
+  --borderColor:white;
+  --svgInvert:100%;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,7 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #000000;
+  background-color: var(--backgroundColor);
   overflow:hidden;
 }
 @media (max-width:350px) {
@@ -14,8 +20,8 @@ body {
   }
 }
 a,Link{
-  color:white;
-  padding:0px 20px;
+  color:var(--fontColor);
+  padding:0px 25px;
   text-decoration: none;
 }
 a:hover, Link:hover{
