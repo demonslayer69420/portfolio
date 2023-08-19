@@ -7,7 +7,9 @@ export default function Nav() {
     <>
     <nav className='navbar'>
         <Link className='navitem' to='/project'>Projects</Link>
+        <Link className='navitem' to='/techstack'>Tech Stack</Link>
         <Link className='navitem' to='/'>Home</Link>
+        <Link className='navitem' to='/about'>About</Link>
         <Link className='navitem' to='/contact'>Contact</Link>
     </nav>
     <Outlet/>
