@@ -1,19 +1,9 @@
 .home{
     color: var(--fontColor);
-    font-size: 22px;
+    font-size: 2vw;
 }
-@media (max-width: 200px) {
+@media (min-width: 1001px) {
     .home{
-        font-size: 2vw;
-    }
-}
-@media (min-width: 201px) and (max-width: 600px) {
-    .home{
-        font-size: 14px;
-    }
-}
-@media (min-width: 601px) and (max-width: 1000px) {
-    .home{
-        font-size:18px;
+        font-size:25px;
     }
 }

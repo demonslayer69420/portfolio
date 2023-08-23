@@ -12,3 +12,10 @@
     text-align:center;
     background-color:var(--backgroundColor);
 }
+.ver{
+    position: absolute;
+    left:50%;
+    color:white;
+    border: solid 1px white;
+    height: 100%;
+}

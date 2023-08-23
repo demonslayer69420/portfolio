@@ -1,0 +1,14 @@
+.techcontainer{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.skill{
+    font-size: 1vw;
+    margin:8px;
+    min-width: 0.5vw;
+    padding: 5px 15px;
+    border: outset 2px white;
+    border-radius: 50px;
+}
