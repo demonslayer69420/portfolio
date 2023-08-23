@@ -1,0 +1,15 @@
+.about{
+    color:white;
+    width: 75%;
+    font-size: 2vw;
+    text-align: left;
+    word-wrap: break-word;
+}
+@media (max-width: 600px){
+    .about{
+        font-size: 2.5vw;
+    }
+    .span{
+        font-size: 4vw;
+    }
+}

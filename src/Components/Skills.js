@@ -3,7 +3,7 @@ import './Skills.css';
 
 export default function Skills() {
   return (
-    <div className='techcontainer' style={{color:'white'}}>
+    <div className='techcontainer'>
       <span className='skill'>C#</span>
       <span className='skill'>ASP .NET MVC</span>
       <span className='skill'>Entity Framework</span>

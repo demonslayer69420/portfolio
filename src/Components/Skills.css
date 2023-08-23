@@ -3,6 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    color:white;
 }
 .skill{
     font-size: 1vw;
@@ -11,4 +12,14 @@
     padding: 5px 15px;
     border: outset 2px white;
     border-radius: 50px;
+}
+@media (max-width: 499px) {
+    .skill{
+        font-size: 8px;
+    }
+}
+@media (min-width:500px) and (max-width: 850px) {
+    .skill{
+        font-size: 10px;
+    }
 }
